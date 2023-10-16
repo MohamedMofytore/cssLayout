@@ -1,0 +1,93 @@
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+li{
+
+display: inline;
+padding-right: 20px;
+justify-content: flex-end;
+
+}
+
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.star{
+
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.navigation a{
+
+    text-decoration: none;
+    color: #ababab
+
+}
+
+#aboutus{
+
+color: #00b39b;
+
+}
+
+.navigation a:hover{
+
+    color: #00b39b;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.font{
+
+display: flex;
+padding-top: 20px;
+
+}
+ 
+.containerCards{
+
+    display:flex;
+    justify-content: center;
+    padding:50px
+
+}
+.patient{
+    background: #00b39b;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    margin:10px
+}
+.doctor{
+    background: #3d83df;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    margin:10px
+}
+.clinic{
+    background: #1b2734;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    margin:10px
+ 
+}
+.containerCards p{
+    color:white;
+    line-height: 1.2;
+}
